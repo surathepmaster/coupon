@@ -2918,6 +2918,7 @@ var exports$1 = {
 		ctx.beginPath();
 		ctx.rect(area.left, area.top, area.right - area.left, area.bottom - area.top);
 		ctx.clip();
+		console.log("Test Save")
 	},
 
 	unclipArea: function(ctx) {
